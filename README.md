@@ -1,8 +1,12 @@
-### DAWN VALIDATOR BOT
+### DAWN VALIDATOR EXTENSIONS BOT
+
+![dawn](assets/img.png)
 
 ## What needed
 
 - Node JS
+
+---
 
 ## Features
 
@@ -12,16 +16,16 @@
 - Proxy support.
 
 
-## Installing and setup
+---
+
+## Installing and Setup
 
 ### Install
 
 1. Clone the project and go to project directory
    ```
-   git clone https://github.com/Rambeboy/Dawn.git
+   git clone https://github.com/Rambeboy/dawn-validator-bot.git && cd dawn-validator-bot
    ```
-   ```
-   cd Dawn
    ```
 2. Install required package
    ```
@@ -31,7 +35,10 @@
    ```
    npm i
    ```
-### Setup and run
+
+---
+
+### Setup and Run
 
 1. Login/register Dawn Validator account and login, get the token in "getpoint?appid=" -> "authorization:" at network tab in inspect element in browser. 
 2. In `Dawn-Validator-bot` directory, Edit and adjust this line in `accounts.js` and save it
@@ -60,7 +67,8 @@
     node index.js
     ```
 	
-	
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
