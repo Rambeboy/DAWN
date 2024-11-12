@@ -20,15 +20,15 @@ const randomDelay = (min, max) => {
     });
 };
 
-const print_banner():
-    banner = f"""
-{Fore.CYAN}{Style.BRIGHT}╔══════════════════════════════════════════════╗
-║          DAWN VALIDATOR BOT           ║
-║         Author : Nofan Rambe          ║
-║         Welcome & Enjoy sir!          ║
-╚══════════════════════════════════════════════╝
-"""
-    print(banner)
+const displayWelcome = () => {
+    const banner = `${Fore.CYAN}${Style.BRIGHT}
+    ╔══════════════════════════════════════╗
+    ║           DAWN VALIDATOR BOT                ║
+    ║           Author : Nofan Rambe              ║
+    ║           Welcome & Enjoy sir!              ║
+    ╚══════════════════════════════════════╝`;
+    console.log(banner);
+};
 
 const fetchPoints = async (headers) => {
     try {
