@@ -26,7 +26,7 @@
    ```
    git clone https://github.com/Rambeboy/dawn-validator-bot.git && cd dawn-validator-bot
    ```
-   ```
+
 2. Install required package
    ```
    npm install
