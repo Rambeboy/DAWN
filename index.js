@@ -21,13 +21,16 @@ const randomDelay = (min, max) => {
 };
 
 const displayWelcome = () => {
-    echo -e "\033[1;36m
-╔══════════════════════════════════════╗
-║           DAWN VALIDATOR BOT                ║
-║           Author : Nofan Rambe              ║
-║           Welcome & Enjoy sir!              ║
-╚══════════════════════════════════════╝
-\033[0m"
+    console.log(`
+\x1b[32m╔══════════════════════════════════════════════════════╗\x1b[0m
+\x1b[32m║\x1b[0m                \x1b[32mDAWN VALIDATOR BOT\x1b[0m\x1b[32m║\x1b[0m
+\x1b[32m║\x1b[0m              \x1b[36mAuthor : Nofan Rambe\x1b[0m\x1b[32m║\x1b[0m
+\x1b[32m║\x1b[0m              \x1b[36mGithub : Rambeboy\x1b[0m   \x1b[32m║\x1b[0m
+\x1b[32m╚══════════════════════════════════════════════════════╝\x1b[0m
+    `);
+};
+
+displayWelcome();
 
 const fetchPoints = async (headers) => {
     try {
