@@ -21,14 +21,13 @@ const randomDelay = (min, max) => {
 };
 
 const displayWelcome = () => {
-    const banner = `${chalk.cyanBright}
-    ╔══════════════════════════════════════╗
-    ║           DAWN VALIDATOR BOT                ║
-    ║           Author : Nofan Rambe              ║
-    ║           Welcome & Enjoy sir!              ║
-    ╚══════════════════════════════════════╝`;
-    console.log(banner);
-};
+    echo -e "\033[1;36m
+╔══════════════════════════════════════╗
+║           DAWN VALIDATOR BOT                ║
+║           Author : Nofan Rambe              ║
+║           Welcome & Enjoy sir!              ║
+╚══════════════════════════════════════╝
+\033[0m"
 
 const fetchPoints = async (headers) => {
     try {
