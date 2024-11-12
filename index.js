@@ -22,11 +22,11 @@ const randomDelay = (min, max) => {
 
 const displayWelcome = () => {
     console.log(`
-\x1b[32m╔══════════════════════════════════════════════════════╗\x1b[0m
-\x1b[32m║\x1b[0m                \x1b[32mDAWN VALIDATOR BOT\x1b[0m                       \x1b[32m║\x1b[0m
-\x1b[32m║\x1b[0m              \x1b[36mAuthor : Nofan Rambe\x1b[0m                     \x1b[32m║\x1b[0m
-\x1b[32m║\x1b[0m            \x1b[36mWelcome & Enjoy Sir!\x1b[0m                      \x1b[32m║\x1b[0m
-\x1b[32m╚══════════════════════════════════════════════════════╝\x1b[0m
+\x1b[31m╔══════════════════════════════════════════════════════╗\x1b[0m
+\x1b[33m║\x1b[0m             \x1b[32mDAWN VALIDATOR BOT\x1b[0m                       \x1b[33m║\x1b[0m
+\x1b[33m║\x1b[0m             \x1b[36mAuthor : Nofan Rambe\x1b[0m                     \x1b[33m║\x1b[0m
+\x1b[33m║\x1b[0m            \x1b[36mWelcome & Enjoy Sir!\x1b[0m                      \x1b[33m║\x1b[0m
+\x1b[31m╚══════════════════════════════════════════════════════╝\x1b[0m
     `);
 };
 
