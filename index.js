@@ -24,8 +24,8 @@ def print_banner():
     banner = f"""
 {Fore.CYAN}{Style.BRIGHT}╔══════════════════════════════════════════════╗
 ║          DAWN VALIDATOR BOT           ║
-║         Author : Nofan Rambe         ║
-║         Welcome & Enjoy sir!         ║
+║         Author : Nofan Rambe          ║
+║         Welcome & Enjoy sir!          ║
 ╚══════════════════════════════════════════════╝
 """
     print(banner)
