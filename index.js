@@ -20,7 +20,7 @@ const randomDelay = (min, max) => {
     });
 };
 
-def print_banner():
+const print_banner():
     banner = f"""
 {Fore.CYAN}{Style.BRIGHT}╔══════════════════════════════════════════════╗
 ║          DAWN VALIDATOR BOT           ║
