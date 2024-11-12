@@ -1,6 +1,7 @@
-# DAWN Validator Extension automatic claim
+### DAWN VALIDATOR BOT
 
 ## What needed
+
 - Node JS
 
 ## Features
@@ -14,12 +15,13 @@
 ## Installing and setup
 
 ### Install
+
 1. Clone the project and go to project directory
    ```
-   git clone https://github.com/recitativonika/Dawn-Validator-bot.git
+   git clone https://github.com/Rambeboy/Dawn.git
    ```
    ```
-   cd Dawn-Validator-bot
+   cd Dawn
    ```
 2. Install required package
    ```
@@ -58,8 +60,12 @@
     node index.js
     ```
 	
-Python version if you have problem with js version: https://github.com/recitativonika/Dawn-Validator-bot-python	
 	
-Dawn Validator Extension : https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp?authuser=0&hl=en
+Dawn Validator Extension : [Download](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp?authuser=0&hl=en)
 
-My reff code if you want :) : 9lv10g33
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
