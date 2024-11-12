@@ -21,7 +21,7 @@ const randomDelay = (min, max) => {
 };
 
 const displayWelcome = () => {
-    const banner = `${Fore.CYAN}${Style.BRIGHT}
+    const banner = `${chalk.cyanBright}
     ╔══════════════════════════════════════╗
     ║           DAWN VALIDATOR BOT                ║
     ║           Author : Nofan Rambe              ║
