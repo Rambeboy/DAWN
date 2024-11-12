@@ -1,4 +1,4 @@
-### DAWN VALIDATOR EXTENSIONS BOT
+### DAWN VALIDATOR EXTENSIONS
 
 ![dawn](assets/img.png)
 
